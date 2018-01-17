@@ -1,27 +1,49 @@
-# Projet2
+# Projet chapitre 2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.1.
+Dans ce projet nous allons mettre en pratique tout ce que nous avons vu dans le chapitre 2. Sauf que cette fois, c'est à vous de jouer ! Au programme, la création de composants, l'utilisation des différentes liaisons de données ainsi que des directives de base.
 
-## Development server
+Notez bien que le l'UI ( l'interface utilisateur rendue grâce au CSS ) ne rentre pas du tout en compte dans la réalisation des exercices. L'objectif, c'est de maitriser Angular. Vous aurez l'occasion de montrer vos talents graphiques sur les projets avancés.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Lancer le projet
 
-## Code scaffolding
+Pour lancer l'application il faut d'abord installer les dépendances avec npm : 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`npm i`
 
-## Build
+Puis lancer le serveur de développement avec : 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+`ng serve`
 
-## Running unit tests
+## Objectifs
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+[ ] Créer, dans le répertoire app, 2 composants : un composant "directive" et un composant "liaisons".
 
-## Running end-to-end tests
+[ ] Ajouter les deux composants dans le template de AppComponent ( app.component.html )
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+[ ] Dans le composant "directive", mettez en place trois exemples de liaison de données différents
 
-## Further help
+[ ] Un clic sur le composant "liaison" doit afficher dans la console 'clic !'
+      
+[ ] Dans le component 'directive', mettre en place deux paragraphes avec comme contenu 'p1' et 'p2'.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+[ ] Ajouter dans le component 'directive' un attribut 'status', de type boolean, initialisé à TRUE.
+
+[ ] Ajouter dans le component 'directive' un bouton avec le text de votre choix.
+      
+[ ] Cliquez sur le bouton doit inverser la valeur de l'attribut 'status' dans la classe.
+
+[ ] Si status est à TRUE, le paragraphe contenant p1 doit être affiché et le paragraphe contenant 'p2' ne doit pas être visible.
+  
+[ ] Si status est à FALSE, le paragraphe contenant p2 doit être affiché et le paragraphe content 'p1' ne droit pas être visible.
+      
+[ ] Dans le composant 'directive' ajouter un attribut 'texts' de type tableau de chaîne de caractères. Dans cette attribut définir trois chaines de caractères contenant les valeurs 'un', 'deux' et 'trois'.
+
+[ ] Utilisez une liste <ul> et afficher tous les éléments du tableau 'texts' dans des balises <li>.
+      
+## Avant de finir le projet
+
+Pensez à pusher votre travail avant de cliquer sur 'terminer le projet'.
+
+## Besoin d'aide ?
+
+Demandez nous dans le chat on vous aidera :)

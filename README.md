@@ -38,7 +38,7 @@ Puis lancer le serveur de développement avec :
       
 [ ] Dans le composant 'directive' ajouter un attribut 'texts' de type tableau de chaîne de caractères. Dans cette attribut définir trois chaines de caractères contenant les valeurs 'un', 'deux' et 'trois'.
 
-[ ] Utilisez une liste <ul> et afficher tous les éléments du tableau 'texts' dans des balises <li>.
+[ ] Utilisez une liste 'ul' et afficher tous les éléments du tableau 'texts' dans des balises 'li'.
       
 ## Avant de finir le projet
 
